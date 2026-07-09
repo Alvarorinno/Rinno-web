@@ -25,7 +25,7 @@ export default function Products() {
               {product.description}
             </p>
             <Link
-              href={`/productos/${product.slug}`}
+              href={product.href ?? `/productos/${product.slug}`}
               className="mt-2 text-sm font-semibold text-rinno-blue hover:underline"
             >
               Conoce más →

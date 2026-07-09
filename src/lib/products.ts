@@ -4,6 +4,7 @@ export type Product = {
   description: string;
   accent: string;
   content: string[];
+  href?: string;
 };
 
 export const products: Product[] = [
@@ -25,6 +26,7 @@ export const products: Product[] = [
     description:
       "Soluciones self-service que agilizan la experiencia del cliente y reducen los tiempos de espera.",
     accent: "from-rinno-indigo to-rinno-purple",
+    href: "/totems",
     content: [
       "Diseñamos e implementamos tótems de autoatención para retail, restaurantes y servicios, pensados para que el cliente resuelva su compra o consulta de forma autónoma y rápida.",
       "Integramos catálogo, pagos y validaciones en una interfaz simple, reduciendo filas y liberando al equipo humano para tareas de mayor valor.",
