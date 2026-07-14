@@ -12,7 +12,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-rinno-dark/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center">
-          <Image src="/images/logo.png" alt="Rinno" width={110} height={53} priority />
+          <Image src="/images/logo.png" alt="Rinno" width={140} height={38} priority />
         </Link>
 
         <div className="flex items-center gap-6">

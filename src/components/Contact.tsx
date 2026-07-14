@@ -1,12 +1,12 @@
 export default function Contact() {
   return (
-    <section id="contacto" className="bg-white text-black">
+    <section id="contacto" className="bg-rinno-cloud text-rinno-navy">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 sm:grid-cols-3">
         <div>
           <h3 className="font-heading text-lg font-semibold text-rinno-blue">
             Visítanos
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-black/70">
+          <p className="mt-3 text-sm leading-relaxed text-rinno-navy/70">
             Pte. Sebastián Piñera 548
             <br />
             <a href="tel:+56975769325" className="hover:text-rinno-blue">
@@ -23,7 +23,7 @@ export default function Contact() {
           <h3 className="font-heading text-lg font-semibold text-rinno-blue">
             Atención
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-black/70">
+          <p className="mt-3 text-sm leading-relaxed text-rinno-navy/70">
             Lunes a Viernes: 08:00 - 18:00 hrs
             <br />
             Sábado, Domingo y Festivos
@@ -36,7 +36,7 @@ export default function Contact() {
           <h3 className="font-heading text-lg font-semibold text-rinno-blue">
             Quieres sumarte
           </h3>
-          <p className="mt-3 text-sm leading-relaxed text-black/70">
+          <p className="mt-3 text-sm leading-relaxed text-rinno-navy/70">
             Si quieres ser parte de nuestro team, suscríbete para enviarte
             noticias y oportunidades.
           </p>
@@ -45,7 +45,7 @@ export default function Contact() {
               type="email"
               required
               placeholder="Email"
-              className="w-full rounded-full border border-black/20 bg-transparent px-4 py-2 text-sm text-black placeholder:text-black/40 focus:border-rinno-blue focus:outline-none"
+              className="w-full rounded-full border border-rinno-navy/20 bg-transparent px-4 py-2 text-sm text-rinno-navy placeholder:text-rinno-navy/40 focus:border-rinno-blue focus:outline-none"
             />
             <button
               type="submit"
@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="border-t border-black/10 py-6 text-center text-xs text-black/50">
+      <div className="border-t border-rinno-navy/10 py-6 text-center text-xs text-rinno-navy/50">
         © {new Date().getFullYear()} Rinno. Todos los derechos reservados.
       </div>
     </section>

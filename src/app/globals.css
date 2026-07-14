@@ -1,19 +1,28 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-roboto);
-  --font-heading: var(--font-dm-sans);
+  --font-sans: var(--font-host-grotesk);
+  --font-heading: var(--font-host-grotesk);
 
-  --color-rinno-blue: #003af1;
-  --color-rinno-navy: #215387;
-  --color-rinno-indigo: #4054b2;
-  --color-rinno-purple: #833ca3;
-  --color-rinno-dark: #0b0b0b;
-  --color-rinno-charcoal: #1a202c;
+  /* Rinno rebranding 2026 — Midnight / Soft Pink / State Blue / Coral */
+  --color-rinno-blue: #5d71a2; /* State Blue — primary accent */
+  --color-rinno-navy: #151f27; /* Midnight — hover-darken shade */
+  --color-rinno-indigo: #5d71a2; /* State Blue */
+  --color-rinno-purple: #ff7664; /* Coral — secondary accent */
+  --color-rinno-dark: #151f27; /* Midnight — base background */
+  --color-rinno-charcoal: #1e2a37; /* lightened Midnight — card panels */
   --color-rinno-slate: #4a5568;
-  --color-rinno-mist: #718096;
-  --color-rinno-fog: #edf2f7;
-  --color-rinno-cloud: #f7fafc;
+  --color-rinno-mist: #7c8aa0;
+  --color-rinno-fog: #dee6f9; /* Ice Blue — muted text */
+  --color-rinno-cloud: #fff5f5; /* Warm White — headings/body */
+
+  /* Additional brand colors, available for direct use */
+  --color-rinno-pink: #f9d9f7; /* Soft Pink — logo accent */
+  --color-rinno-coral: #ff7664;
+  --color-rinno-iceblue: #dee6f9;
+  --color-rinno-warmwhite: #fff5f5;
+  --color-rinno-midnight: #151f27;
+  --color-rinno-stateblue: #5d71a2;
 }
 
 body {

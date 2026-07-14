@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
-import { Roboto, DM_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
+const hostGrotesk = localFont({
+  variable: "--font-host-grotesk",
+  src: [
+    {
+      path: "./fonts/HostGrotesk-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -27,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${roboto.variable} ${dmSans.variable} h-full antialiased`}
+      className={`${hostGrotesk.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-rinno-dark text-rinno-cloud">
         {children}
