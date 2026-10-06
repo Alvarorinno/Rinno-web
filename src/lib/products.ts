@@ -5,6 +5,7 @@ export type Product = {
   accent: string;
   content: string[];
   href?: string;
+  logo?: string;
 };
 
 export const products: Product[] = [
@@ -34,27 +35,28 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "retail-experiencia",
-    title: "Retail Experiencia",
+    slug: "waity",
+    title: "Waity",
+    logo: "/images/waity-logo.svg",
     description:
-      "Diseñamos espacios físicos que conectan con el consumidor a través de tecnología interactiva.",
+      "Nuestro gestor de fila inteligente: organiza a tus clientes de manera eficiente y rápida. La espera, bien gestionada.",
     accent: "from-rinno-purple to-rinno-navy",
     content: [
-      "Creemos que el punto de venta es mucho más que un espacio: es un lugar para vivir la experiencia de cada marca. Por eso diseñamos recorridos y ambientaciones que integran tecnología de forma natural.",
-      "Integramos sensores para conectar el espacio físico con el contenido digital, generando experiencias interactivas que invitan al consumidor a participar, no solo a observar.",
-      "El resultado son espacios que refuerzan la identidad de marca y generan recordación real en el cliente.",
+      "Waity es el gestor de fila inteligente de Rinno: un sistema que organiza a tus clientes de manera eficiente y rápida, para que la espera esté siempre bien gestionada.",
+      "Cada cliente queda ubicado y visible en todo momento. Desde un panel en vivo puedes ver los turnos en espera, el tiempo promedio de espera y la cantidad de clientes atendidos.",
+      "Se integra con el resto de las soluciones de Rinno en el punto de venta, como pantallas de digital signage y tótems de autoatención, para ofrecer una experiencia ordenada de principio a fin.",
     ],
   },
   {
-    slug: "tecnologias",
-    title: "Tecnologías",
+    slug: "rinno-box",
+    title: "Rinno Box",
     description:
-      "Integramos sensores, IA y hardware de última generación para potenciar cada punto de contacto.",
+      "Plataforma digital para el seguimiento de órdenes de trabajo (OT): sabe en qué estado está cada una, en todo momento.",
     accent: "from-rinno-navy to-rinno-blue",
     content: [
-      "En Rinno Lab diseñamos e implementamos proyectos de innovación tecnológica, digitalización y automatización de puntos de venta, combinando sensores, inteligencia artificial y hardware de última generación.",
-      "Contamos con un equipo técnico desplegado en todo el territorio para dar soporte y administración de hardware, software y contenido, con cobertura nacional.",
-      "Cada solución se adapta al objetivo de negocio del cliente, desde captura de datos de comportamiento hasta automatización de procesos en el punto de venta.",
+      "Rinno Box es la plataforma digital de Rinno para el seguimiento de órdenes de trabajo (OT), pensada para que cada requerimiento quede registrado y visible de principio a fin.",
+      "Permite saber en qué estado se encuentra cada OT, quién la está atendiendo y cuándo se cierra, con información centralizada y disponible en todo momento.",
+      "Se complementa con el soporte técnico nacional de Rinno para mantener operativos los equipos y puntos de venta de cada cliente.",
     ],
   },
 ];
